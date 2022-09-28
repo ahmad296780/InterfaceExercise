@@ -88,7 +88,10 @@ namespace InterfaceExercise
                     $"{item.numberOfWindows} ," +
                     $"{item.numberOfWheels}, " +
                     $"{item.Logo},{item.numberOfSeats}, " +
-                    $"{item.numberOfDoors}");
+                    $"{item.numberOfDoors}," +
+                    $"Trunk : {(honda.HasTrunk)}, " +
+                    $"Sedan : {honda.sedan}, " +
+                    $"7 seats? : {esclade.Has7Seats}");
 
             }
 
